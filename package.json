@@ -1,6 +1,6 @@
 {
   "name": "lnmap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Typed Map of IPLD links (CIDs) and values.",
   "main": "index.js",
   "type": "module",
