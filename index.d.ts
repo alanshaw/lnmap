@@ -1,5 +1,5 @@
-import type { Link } from 'multiformats/interface'
+import type { Link, Version } from 'multiformats/interface'
 
-declare class LinkMap<Key extends Link, Value> extends Map<Key, Value> {}
+declare class LinkMap<Key extends Link<unknown, number, number, Version>, Value> extends Map<Key, Value> {}
 
 export { LinkMap as Map }

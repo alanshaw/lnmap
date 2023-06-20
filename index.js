@@ -14,7 +14,7 @@ const toBase58String = digest => {
 }
 
 /**
- * @template {import('multiformats').Link} Key
+ * @template {import('multiformats').Link<unknown, number, number, import('multiformats').Version>} Key
  * @template Value
  * @implements {Map<Key, Value>}
  */
